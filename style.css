@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; /* 15px! */
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; /* 14px! */
+  }
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.header-image {
+  height: 4.5rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-menu-item {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #fff2e7;
+  text-decoration: none;
+  transition: all 0.5s;
+  border-bottom: 3px solid transparent;
+}
+
+.header-menu-item:hover {
+  border-bottom: 3px solid #ecd6c4;
+}
+
+label {
+  display: none;
+}
+
+#check {
+  z-index: 3;
+  display: none;
+}
+
+/* Responsive menu styles*/
+@media (max-width: 720px) {
+  .header-menu {
+    display: none;
+  }
+
+  label {
+    display: block;
+    font-size: 1.563rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  label:hover {
+    color: #fff2e7;
+  }
+
+  label .close-btn {
+    display: none;
+  }
+
+  #check:checked ~ .header-menu {
+    z-index: 2;
+    position: fixed;
+    background: #2f2325e8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  #check:checked ~ .header-menu a {
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 3.125rem;
+    letter-spacing: 0.125rem;
+  }
+
+  #check:checked ~ label .menu-btn {
+    display: none;
+  }
+
+  #check:checked ~ label .close-btn {
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+
+  label .menu-btn {
+    position: absolute;
+  }
+}
+
+/* Responsive main content styles*/
+@media screen and (max-width: 720px) {
+  main {
+    padding: 20px;
+    margin-bottom: 3rem;
+    border-top: 0.025rem solid #fff2e7;
+  }
+
+  .first-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .first-content-written-title {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .first-content-image {
+    width: 60%;
+    padding-top: 60px;
+  }
+}
+/* -------- */
+
+.first-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first-content-written {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.first-content-written-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #fff2e7;
+}
+
+.first-content-written-subtitle {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ecd6c4;
+}
+
+.first-content-written-btn {
+  background-color: #ecd6c4;
+  width: 11.25rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 2.5rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #2f2325;
+  transition: 0.3s;
+}
+
+.first-content-written-btn:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.first-content-image {
+  height: 26.875rem;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.second-content-title {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 3rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff2e7;
+  margin-bottom: 1rem;
+}
+
+.second-content-parahraph {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #ecd6c4;
+}
+
+footer {
+  padding: 2rem;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.footer-image {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
