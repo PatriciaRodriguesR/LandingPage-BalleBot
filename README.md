@@ -1,12 +1,13 @@
 # Landing Page - Balle Bot
 
-[Preview](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot#eye_speech_bubble-preview) • [Description](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot#information_source-about) • [Technologies](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot#hammer_and_wrench-technologies) • [Tasks](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot#memo-tasks) • [License](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot#page_with_curl-license) • [View Demo](https://PatriciaRodriguesR.github.io/LandingPage-BalleBot/)
+[Preview](#id-preview) • [Description](#id-description) • [Technologies](#id-technologies) • [Tasks](#id-tasks) • [License](#id-license) • [View Demo](https://PatriciaRodriguesR.github.io/LandingPage-BalleBot/)
 
  
 
 ------
 
 
+<div id='id-preview'/>
 
 ## 👁️‍🗨️ **Preview**
 
@@ -27,6 +28,7 @@ Check out how it looks: [View Demo](https://PatriciaRodriguesR.github.io/Landing
 [![Mobile](assets/Mobile.gif)](https://github.com/PatriciaRodriguesR/LandingPage-BalleBot)
 
 
+<div id='id-description'/>
 
 ## ℹ️ Description
 
@@ -35,6 +37,7 @@ A Landing Page made based on tutorial online, hosted by [Rafaella Ballerini](htt
 ------
 
 
+<div id='id-technologies'/>
 
 ## 🛠️ **Technologies**
 
@@ -43,6 +46,7 @@ A Landing Page made based on tutorial online, hosted by [Rafaella Ballerini](htt
 ------
 
 
+<div id='id-tasks'/>
 
 ## 📝 **Tasks**
 
@@ -55,6 +59,7 @@ A Landing Page made based on tutorial online, hosted by [Rafaella Ballerini](htt
 ------
 
 
+<div id='id-license'/>
 
 ## 📃 License
 
